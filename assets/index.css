@@ -1,0 +1,243 @@
+.body{
+    background: white;
+    margin: 0px auto;
+    padding: 0px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.karkas{
+    position: relative;
+    width: 1350px;
+    height: 2000px;
+    background:white; 
+    margin: 0px auto;
+}
+.logo{
+    margin: 5px;
+    position: relative;
+    float: left;
+}
+.logo img{
+    position: absolute;
+    top: -10px;
+    left: 75px;
+}
+.navbar{
+    width: 1350px;
+    height: 100px;
+    background:white;
+    padding-top: 65px;
+    padding-left: 0px;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 80px;
+}
+.menu ul li{
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    margin: 0px 20px;
+    box-sizing: border-box;
+    color: #07043B;
+    font-size: 16px;
+    align-items: flex-end;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    color: blue;
+    transition: 0.6s;
+}
+.karkas::before{
+    content: "All your files in one secure location, accessible anywhere.";
+    position: absolute;
+    width: 627px;
+    height: 120px;
+    left: 80px;
+    top: 266px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #07043B;
+    left: 75px;
+}
+.karkas::after{
+    content: "Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.";
+    position: absolute;
+    width: 485px;
+    height: 52px;
+    left: 80px;
+    top: 401px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    color: #07043B;
+    left: 75px;
+}
+.abc{
+    position: absolute;
+    left: 710px;
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.karkas .btn{
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    top: 503px;
+    left: 435px;
+    color: white;
+    background: #2F65F8;
+    border: #2F65F8;
+    border-radius: 3.125px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+.karkas input{
+    position: absolute;
+    width: 320px;
+    height: 45px;
+    top: 500px;
+    left: 80px;
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    padding: 0px 0px 0px 15px;
+    left: 75px;
+}
+.karkas:hover{
+    transition: 0.35s;
+}
+
+.centr{
+    height: 950.3743896484375px;
+    width: 1350px;
+    left: 0px;
+    float: left;
+    position: absolute;
+    bottom: 150px;
+    top: 750px;
+    margin: 0px auto;
+    padding: 0px;
+    right: 0px;
+    background-image: url(./png/Rectangle.png);
+    background-repeat: no-repeat;
+}
+h1{ 
+    margin: 195px 0px 0px 85px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #07043B;
+}
+ .first{ 
+    margin: 0 0 0vh 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    position: absolute;
+    left: 6%;
+    right: 57.71%;
+    top: 300px;
+    bottom: 62.89%;
+}
+.second{
+    margin: 0 0 0vh 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    position: absolute;
+    z-index: 9;
+    left: 6%;
+    right: 57.71%;
+    top: 366px;
+    bottom: 62.89%;
+}
+.third{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #3DA08F;
+cursor: pointer;
+vertical-align: baseline;
+}
+.centr .third::before{
+    content:"";
+    width: 140px;
+    height: 1px;
+    background-color: #3DA08F;
+    float: left;
+    position: absolute;
+    z-index: 100;
+    top: 455px;
+}
+.img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 760px;
+top: 220px;
+}
+.centr i{
+    width: 5px;
+    color: #3DA08F;
+    left: 222px;
+    position: absolute;
+    bottom: 495px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.ramka{
+    top: 10px;
+    width: 356px;
+    height: 125px;
+    position: relative;
+    background-color: white;
+}
+
+.ramka i{
+    top: -132px;
+    left: 35px;
+    position: relative;
+    color: black;
+    
+}
+.ramka .new{
+   font-size: 13px;
+ left: 35px;
+bottom: 90px;
+   position: absolute;
+   font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+}
+.pers{
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
