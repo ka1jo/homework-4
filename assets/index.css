@@ -281,13 +281,13 @@ box-sizing: border-box;
     font-weight: 700;
     left: 62px;
     position: relative;
-    bottom: -50px;
+    bottom: -57px;
 }
 h3{
     font-size: 8px;
     position: relative;
     float: left;
-    bottom: 0px;
+    bottom: -7px;
     left: 62px;
 }
 .text{
