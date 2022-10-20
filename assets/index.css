@@ -419,7 +419,7 @@ right: 39px;
     right: 15px;
 }
 .inf2{
-    width: 200px;
+    width: 280px;
     height: 200px;
     float: left;
     position: relative;
@@ -438,12 +438,10 @@ font-weight: 400;
     list-style-type: none;
     padding: 10px;
     color: white;
-    left: 590px;
-    position: relative;
-    top: -45px;
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
+float: left;
 }
 .icc i{
     border-radius: 50%;
@@ -452,11 +450,19 @@ font-weight: 400;
     color: white;
     left: 850px;
     position: relative;
-    bottom: 180px;
+    bottom: 190px;
 }
 .icc :hover{
     cursor: pointer;
 }
 .inf2:hover{
     cursor: pointer;
+}
+.ic{
+    top: -230px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 800px;
+cursor: pointer;
 }
