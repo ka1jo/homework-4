@@ -126,7 +126,7 @@
     height: 45px;
     border: 0.625px solid #07043B;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
-    border-radius: 13.125px;
+    border-radius: 3.125px;
     padding: 0 0 0 15px;
     right: 45px;
     top: 5px;
@@ -158,6 +158,7 @@ h1{
     line-height: 47px;
     color: #07043B;
     right: 0px;
+    z-index: 500;
 }
  .first{ 
     margin: 0 0 0vh -5px;
@@ -172,6 +173,7 @@ h1{
     right: 72px;
     top: 300px;
     bottom: 62.89%;
+    z-index: 500;
 }
 .second{
     margin: 0 0 0vh -5px;
@@ -187,6 +189,7 @@ h1{
     right: 57.71%;
     top: 366px;
     bottom: 62.89%;
+    z-index: 500;
 }
 .third{
     font-family: 'Open Sans';
@@ -317,6 +320,7 @@ font-size: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    z-index: 500;
 }
 .tx{
     position: relative;
@@ -330,8 +334,8 @@ font-size: 32px;
     position: relative;
     background: #575988;
     z-index: 10;
-    left: 750px;
     top: 130px;
+    padding-left: 750px;
 }
 .butn{
     width: 200px;
@@ -353,7 +357,7 @@ border: #2F65F8;
     font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
-border-radius: 13.125px;
+border-radius: 3.125px;
 border-color: transparent;
 }
 .sp{
@@ -459,10 +463,10 @@ float: left;
     cursor: pointer;
 }
 .ic{
-    top: -230px;
+    top: -45px;
     width: 150px;
     height: 150px;
     position: relative;
-    left: 800px;
 cursor: pointer;
+padding-left: 750px;
 }
