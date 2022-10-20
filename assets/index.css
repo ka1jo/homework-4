@@ -378,8 +378,8 @@ border-color: transparent;
     position: relative;
     width: 240px;
     height: 150px;
-    left: 80px;
     top: 50px;
+    padding-left: 100px;
 }
 .inf h1{
     color:white;
